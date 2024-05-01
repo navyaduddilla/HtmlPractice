@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Grocery Landscape Page</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="projectCSS.css">
+
+</head>
+
+<body>
+  <div class="box1">
+    <img class="img1" width:190px height:190px
+      src="https://fruto-theme.myshopify.com/cdn/shop/files/Header-logo_151cba94-a9db-44a2-8b2d-cb184770bcb6_300x300.png?v=1643974481"
+      alt="pic">
+    <div class="box2">
+      <!-- Example single danger button -->
+      <div class="btn-group ">
+        <button type="button" class="btn btn-danger dropdown-toggle allcategory" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          All Categories
+        </button>
+        <ul class="dropdown-menu" style="width:248px">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Catalog</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Organic</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Fruits</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Vegetables</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Dairy</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Food</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Spices</a></li>
+        </ul>
+      </div>
+
+      <span class="btn  dropdown-toggle menu" data-bs-toggle="dropdown" aria-expanded="false"
+        style="margin-left: 45px;">
+        HOME
+      </span>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </li>
+      </ul>
+
+      <span class="btn  dropdown-toggle menu" data-bs-toggle="dropdown" aria-expanded="false">
+        SHOP
+      </span>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </li>
+      </ul>
+      <span class="btn  dropdown-toggle menu" data-bs-toggle="dropdown" aria-expanded="false">
+        PAGES
+      </span>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </li>
+      </ul>
+      <span class="btn menu" data-bs-toggle="dropdown" aria-expanded="false">
+        BLOGS
+      </span>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </li>
+      </ul>
+      <span class="btn menu" data-bs-toggle="dropdown" aria-expanded="false" style="border: none">
+        CONTACT
+      </span>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </li>
+      </ul>
+
+
+
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-3">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list"
+          style="height: 55px;padding-top: 16px;" data-bs-toggle="list" href="#list-home" role="tab"
+          aria-controls="list-home">Home</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" style="height: 55px;padding-top: 16px;"
+          data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Catalog</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list"
+          style="height: 55px;padding-top: 16px;" data-bs-toggle="list" href="#list-messages" role="tab"
+          aria-controls="list-messages">Organic</a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list"
+          style="height: 55px;padding-top: 16px;" data-bs-toggle="list" href="#list-settings" role="tab"
+          aria-controls="list-settings">Fruits</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" style="height: 55px;padding-top: 16px;"
+          data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Vegetables</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" style="height: 55px;padding-top: 16px;"
+          data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Dairy</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list"
+          style="height: 55px;padding-top: 16px;" data-bs-toggle="list" href="#list-messages" role="tab"
+          aria-controls="list-messages">Food</a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list"
+          style="height: 55px;padding-top: 16px;" data-bs-toggle="list" href="#list-settings" role="tab"
+          aria-controls="list-settings">Spices</a>
+      </div>
+    </div>
+    <div class="col-9" id="list-home">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner winner">
+          <div class="carousel-item active">
+            <img src="https://fruto-theme.myshopify.com/cdn/shop/files/slider-3.jpg?v=1642660999" class="d-block  slide"
+              alt="..." style="border-radius: 15px;">
+            <div class="text-overlay">
+              <h6>Vitamins&Minerals Rich Vegetables</h6>
+              <h1><b>Healthy Veggies</b></h1>
+              <p>Save upto 25% Off</p>
+              <button class="btn-group2">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://fruto-theme.myshopify.com/cdn/shop/files/shutterstock_1406890088.png?v=1637132382"
+              class="d-block slide" alt="..." style="border-radius: 15px;">
+            <div class="text-overlay2">
+              <h6>Natural Health Care Ingredients</h6>
+              <h1><b>Grocerry Shopping</b></h1>
+              <p>Save upto 30% Off</p>
+              <button class="btn-group2">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://fruto-theme.myshopify.com/cdn/shop/files/slider-2_2e5c7943-3433-4bee-ae1a-a22b62401f58.jpg?v=1643976460"
+              class="d-block slide" alt="..." style="border-radius: 15px;">
+            <div class="text-overlay2">
+              <h6>Chemical Free Natural Fruits</h6>
+              <h1><b>Organic Fruits</b></h1>
+              <p>Save upto 20% Off</p>
+              <button class="btn-group2">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flexComponent">
+    <div class="box4">
+      <img src="https://fruto-theme.myshopify.com/cdn/shop/files/Untitled-3.png?v=1637141016" alt="pic"
+        style="width:280px; border-radius: 10px;">
+      <div class="text-overlay3">
+        <h5>One Day Delivery</h5>
+        <h5>Get Upto 30% Off</h5>
+        <button class="btn-2">Shop Now</button>
+      </div>
+
+    </div>
+    <div class="box5">
+      <img src="https://fruto-theme.myshopify.com/cdn/shop/files/gridimg01_600x.jpg?v=1641898237" alt="pic"
+        style="width:478px; height:250px; border-radius: 10px;">
+      <div class="text-overlay4">
+        <h6>Special Offer</h6>
+        <h4><b>Fresh Blueberries</b></h4>
+        <h5>Get Upto 30% Off</h5>
+        <button class="btn-3"><b>Shop Now</b></button>
+      </div>
+      <h5 class="products">Top products</h5>
+    </div>
+
+
+
+    <div class="box6">
+      <img src="https://fruto-theme.myshopify.com/cdn/shop/files/gridimg02_600x.jpg?v=1641898249" alt="pic"
+        style="width:463px;height:250px; border-radius:10px;">
+      <div class="text-overlay4">
+        <h6>Big Sale</h6>
+        <h4><b>Fruits & Vegetables</b></h4>
+        <h5>Get Upto 30% Off</h5>
+        <button class="btn-3"><b>Shop Now</b></button>
+      </div>
+    </div>
+  </div>
+  <div class="flexcomponent2">
+    <div class="box7">
+      <h6>New Product</h6>
+      <hr>
+      <div>
+        <div class="MainProd">
+          <div class="productcontainer">
+            <a href="/products/orange">
+              <img
+                src="https://fruto-theme.myshopify.com/cdn/shop/products/shop11_9f4df57a-ab35-4eb7-ab12-7bdf14ace2d1_600x.jpg?v=1641798490"
+                alt="orange" style="width:80px;height:80px;">
+            </a>
+          </div>
+          <div class="prodDetails">
+            <a href="/products/orange">
+              <span class="orange"><strong>Orange</strong></span>
+            </a>
+            <div id="rating1" class="star-rating" role="rating" data-rating="3">
+              <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+            </div>
+            <div class="productprice">
+              <h6>Rs.150.00</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <div class="MainProd">
+          <div class="productcontainer">
+            <a href="/products/kiwi">
+              <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop22_600x.jpg?v=1641798174" alt="kiwi"
+                style="width:80px;height:80px;">
+            </a>
+          </div>
+          <div class="prodDetails">
+            <a href="/products/kiwi">
+              <span class="orange"><strong>kiwi</strong></span>
+            </a>
+            <div id="rating1" class="star-rating" role="rating" data-rating="3">
+              <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+            </div>
+            <div class="productprice">
+              <h6>Rs.60.00</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div>
+        <div class="MainProd">
+          <div class="productcontainer">
+            <a href="/products/Oyster Mushroom">
+              <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop27_600x.jpg?v=1641798586" alt="mushroom"
+                style="width:80px;height:80px;">
+            </a>
+          </div>
+          <div class="prodDetails">
+            <a href="/products/Oyster Mushroom">
+              <span class="orange"><strong>Oyster Mushroom</strong></span>
+            </a>
+            <div id="rating1" class="star-rating" role="rating" data-rating="3">
+              <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+            </div>
+            <div class="productprice">
+              <h6>Rs.100.00&nbsp;<span style="font-size:13px;"><s>Rs.150.00</s></span></h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div>
+        <div class="MainProd">
+          <div class="productcontainer">
+            <a href="/products/redchilly">
+              <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop28_600x.jpg?v=1641798973"
+                alt="redchilly" style="width:80px;height:80px;">
+            </a>
+          </div>
+          <div class="prodDetails">
+            <a href="/products/redchilly">
+              <span class="orange"><strong>Redchilly</strong> </span>
+            </a>
+            <div id="rating1" class="star-rating" role="rating" data-rating="3">
+              <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+            </div>
+            <div class="productprice">
+              <h6>Rs.110.00&nbsp;<span style="font-size:13px;"><s>Rs.199.00</s></span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="box8">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/poster.png?v=1637232288" alt="pic"
+            style="width:280px; border-radius:10px;">
+          <div class="text-overlay5">
+            <h4 style="color:#ea4126;"><b>Special Offer</b></h4>
+            <h5 style="color:black;">Get Upto 30% Off</h5>
+            <button class="btn-2"><b>Shop Now</b></button>
+          </div>
+        </div>
+        <div class="box9">
+          <img src="" alt="">
+        </div>
+        <div class="box10">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/post.png?v=1637233279" alt=""
+            style="width:280px; border-radius:10px;">
+          <div class="text-overlay6">
+            <h4 style="color:#ea4126;"><b>Summer Special</b></h4>
+            <h5 style="color:black;">Get Upto 30% Off</h5>
+            <button class="btn-2"><b>Shop Now</b></button>
+          </div>
+        </div>
+        <div class="box11">
+          <h6>New Product</h6>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/pumpkin">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop20_600x.jpg?v=1641798830"
+                    alt="pumpkin" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails">
+                <a href="/products/pumpkin">
+                  <span class="orange"><strong>Pumpkin</strong></span>
+                </a>
+                <div id="rating1" class="star-rating" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6>Rs.55.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/kiwi">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop22_600x.jpg?v=1641798174" alt="kiwi"
+                    style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails">
+                <a href="/products/kiwi">
+                  <span class="orange"><strong>Kiwi</strong></span>
+                </a>
+                <div id="rating1" class="star-rating" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6>Rs.60.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/pitaya">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop09_600x.jpg?v=1641798772"
+                    alt="pitaya" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails">
+                <a href="/products/pitaya">
+                  <span class="orange"><strong>Pitaya</strong></span>
+                </a>
+                <div id="rating1" class="star-rating" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6>Rs.60.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/eggplant">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop09_600x.jpg?v=1641798772"
+                    alt="eggplant" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails">
+                <a href="/products/eggplant">
+                  <span class="orange"><strong>Eggplant</strong></span>
+                </a>
+                <div id="rating1" class="star-rating" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6>Rs.55.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/watermelon" class="grid-link product-group">
+
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop01_600x.jpg?v=1641202901" alt="watermelon"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Manna</h6>
+          <h6>Watermelon</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.100.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/carrot" class="grid-link product-group">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop02_600x.jpg?v=1641797549" alt="carrot"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">New</h6>
+          <h6>Carrot</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.110.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/rasberry" class="grid-link product-group">
+          <img
+            src="https://fruto-theme.myshopify.com/cdn/shop/products/shop13_4371b5b0-a07a-4353-88de-7b5a6cdd4831_600x.jpg?v=1641798938"
+            alt="Rasberry" style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126" ;>Nama</h6>
+          <h6>Rasberry</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.150.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/eggplant" class="grid-link product-group">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop04_600x.jpg?v=1641797915" alt="Eggplant"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Quality</h6>
+          <h6>Eggplant</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.55.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/mango" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop05_600x.jpg?v=1641798301" alt="Mango"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Lovely</h6>
+          <h6>Mango</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.120.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/tomato" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop06_600x.jpg?v=1641799130" alt="Tomato"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Duio</h6>
+          <h6 class="tomato">Tomato</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.110.00&nbsp;<span
+              style="font-size:13px;color:black;"><s>Rs.199.00</s></span></h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/avocado" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop07_600x.jpg?v=1641797415" alt="Avocado"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Rich Fruit</h6>
+          <h6>Avocado</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.60.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/bell-pepper" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop08_600x.jpg?v=1641797489" alt="Bell Pepper"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Fresh</h6>
+          <h6>Bell Pepper</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.110.00&nbsp;<span
+              style="font-size:13px;color:black"><s>Rs.199.00</s></span></h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/pitaya" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop09_600x.jpg?v=1641798772" alt="Pitaya"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Nala</h6>
+          <h6>Pitaya</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.60.00</h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container1">
+        <a href="/collections/demo-1-home-page-i/products/broccoli" class="grid-link product-group">
+          <img src="//fruto-theme.myshopify.com/cdn/shop/products/shop10_600x.jpg?v=1641797518" alt="Broccoli"
+            style="width: 180px;height:140px;">
+        </a>
+        <hr>
+        <div style="text-align: center;">
+          <h6 style="color:#ea4126;">Raw</h6>
+          <h6>Broccoli</h6>
+          <h6 class="productprice" style="color:#ff6c26">Rs.110.00&nbsp;<span
+              style="font-size:13px;color:black"><s>Rs.199.00</s></span></h6>
+          <button class="custombutton">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container2"></div>
+      <div class="container2"></div>
+      <div>
+        <h5 class="category">Top Categories</h5>
+      </div>
+      <div class="container3">
+        <div class="list1"></div>
+        <div class="list1"></div>
+        <div class="list1"></div>
+        <div class="list1"></div>
+        <div class="list1"></div>
+
+      </div>
+      <div>
+        <h5 class="deals"><b>Daily deals</b></h5>
+      </div>
+      <div class="container4">
+        <div class="fruits"></div>
+        <div class="fruits">
+          <div class="prodDetails">
+            <a href="/products/citrus Fruits">
+              <span class="citrus"><strong>Citrus Fruits</strong></span>
+            </a>
+            <div id="rating1" class="star-rating2" role="rating" data-rating="3">
+              <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+              <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+            </div>
+            <div class="productprice">
+              <h6 class="star-rating2">Rs.60.00</h6>
+            </div>
+            <p>idiu
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flexComponent3">
+        <div class="component1">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/gridimg03_600x.jpg?v=1641974365" alt="pic"
+            style="width:450px; height:260px; border-radius: 10px;">
+          <div class="text-overlay7">
+            <h4 style="color:black;"><b>100% Organic Fresh Veggies For Peoples</b></h5>
+              <h4 style="color:green;font-size:31px;"><b>$10.99</b>&nbsp;<span
+                  style="color:black;font-size:16px;"><s>$18.99</s></span></h4>
+              <button class="btn-2"><b>Shop Now</b></button>
+          </div>
+        </div>
+        <div class="component2">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/gridimg04_600x.jpg?v=1641974382" alt="pic"
+            style="width:450px; height:260px; border-radius: 10px;">
+          <div class="text-overlay8">
+            <h5 style="font-weight:700;"><b>All Organic Fresh Vegetables</b></h5>
+            <h4 style="color: #913a3e; font-size:31px;"><b>$10.99</b>&nbsp;<span
+                style="color:black;font-size:16px;"><s>$18.99</s></span></h4>
+
+            <button class="btn-4"><b>Shop Now</b></button>
+          </div>
+        </div>
+      </div>
+      <div class="fbox1">
+        <div class="column">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/icon08.png?v=1641974543" alt="truck"
+            style="width:35px;height:35px;">
+          <div style="padding-top:15px;">
+            <p class="content" style="margin-bottom:5px">Free Shipping</p>
+            <p style="font-size:15px;">Free shipping all order</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/icon09.png?v=1641974559" alt="piggybank"
+            style="width:35px;height:35px;">
+          <div style="padding-top:15px;">
+            <p class="content" style="margin-bottom:5px">Money Returns</p>
+            <p style="font-size:15px;">30 days for free return</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/icon11.png?v=1641974591" alt="headmic"
+            style="width:35px;height:35px;">
+          <div style="padding-top:15px;">
+            <p class="content" style="margin-bottom:5px">Online Support</p>
+            <p style="font-size:15px;">Support 24 hours a day</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="https://fruto-theme.myshopify.com/cdn/shop/files/icon10.png?v=1641974581" alt="speaker"
+            style="width:35px;height:35px;">
+          <div style="padding-top:15px;">
+            <p class="content" style="margin-bottom:5px">Deals&Promotions</p>
+            <p style="font-size:15px;">Price savings, discounts</p>
+          </div>
+        </div>
+      </div>
+      <div class="fbox2">
+        <div class="fb1">
+          <h6 class="new">New products</h6>
+
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/orange">
+                  <img
+                    src="https://fruto-theme.myshopify.com/cdn/shop/products/shop11_9f4df57a-ab35-4eb7-ab12-7bdf14ace2d1_600x.jpg?v=1641798490"
+                    alt="orange" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/orange">
+                  <span class="purple">Orange</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.150.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/purple cabbage">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop14_600x.jpg?v=1641798868"
+                    alt="purple cabbage" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/purple cabbage">
+                  <span class="purple">purple cabbage</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.110.00<span style="color:black;"><s>Rs.199.00</s></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/guava">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop17_600x.jpg?v=1641798070"
+                    alt="guava" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/guava">
+                  <span class="purple">Guava</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.120.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fb1">
+          <h6 class="new">Best sellers</h6>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/lettuce">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop12_600x.jpg?v=1641798271"
+                    alt="lettuce" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/lettue">
+                  <span class="purple">Lettuce</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.50.00<span><s>Rs.199.00</s></span></h6>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/peach">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop15_600x.jpg?v=1641798630"
+                    alt="peach" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/peach">
+                  <span class="purple">Peach</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.60.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/garlic">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop18_600x.jpg?v=1641797986"
+                    alt="garlic" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/garlic">
+                  <span class="purple">Garlic</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.110.00 <span><s>Rs.199.00</s></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fb1">
+          <h6 class="new">Special Products</h6>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/rasberry">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop13_4371b5b0-a07a-4353-88de-7b5a6cdd4831_600x.jpg?v=1641798938"
+                    alt="rasberry" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/rasberry">
+                  <span class="purple">Rasberry</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.150.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/mushroom">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop16_600x.jpg?v=1641798336"
+                    alt="mushroom" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/mushroom">
+                  <span class="purple">Mushroom</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.100.00 <span><s>Rs.150.00</s></span></h6>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <hr>
+          <div>
+            <div class="MainProd">
+              <div class="productcontainer">
+                <a href="/products/Jujube Fruit">
+                  <img src="https://fruto-theme.myshopify.com/cdn/shop/products/shop19_600x.jpg?v=1641798139"
+                    alt="Jujube Fruit" style="width:80px;height:80px;">
+                </a>
+              </div>
+              <div class="prodDetails1">
+                <a href="/products/Jujube Fruit">
+                  <span class="purple">Jujube Fruit</span>
+                </a>
+                <div id="rating1" class="star-rating3" role="rating" data-rating="3">
+                  <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                  <span class="star" data-value="5">&#9733;<span class="star-notification"></span></span>
+                </div>
+                <div class="productprice">
+                  <h6 class="price">Rs.100.00 <span><s>Rs.150.00</s></span></h6>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+</body>
+
+</html>
